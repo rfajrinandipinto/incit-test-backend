@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "loginCount" INTEGER DEFAULT 0,
+ADD COLUMN     "logoutTimestamp" TIMESTAMP(3),
+ADD COLUMN     "signUpTimestamp" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP;
